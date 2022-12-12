@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Conditional Statment IF</title>
+        <script src="./js/script.js"></script>
+
+    </head>
+    <body>
+        
+
+
+        <script>
+            
+
+            //The YOungerster whoes age is greater than 18 can vote.
+
+           
+                //multiline comment 
+            
+           //   || logical or operator
+           //   false || false = false
+           //   false || true = true
+           //   true || false = true
+           //   true || true = true
+           
+           //   && logical AND operator
+           //   false || false = false
+           //   false || true = false
+           //   true || false = false
+           //   true || true = true
+
+        let yourStudyTime = window.prompt('please enter the time ')
+
+         if(yourStudyTime >= 6 && yourStudyTime <= 12){
+            window.alert("Good Morning")
+        }
+        else if(yourStudyTime > 12 && yourStudyTime <= 15){
+            window.alert('Good Afternoon')
+        }
+        else if(yourStudyTime > 15 && yourStudyTime <= 20){
+            window.alert('Good Evening')
+        }
+        else if(yourStudyTime > 20 && yourStudyTime <= 24){
+            window.alert('Good Night')
+        }
+      
+        alert(typeof yourStudyTime)
+        </script>
+        <script></script>
+        <script>
+            /*let aa = prompt("Hey whats your age ?")
+                aa = Number.parseInt(aa) // converting the string to a number
+            
+                if(aa>0){
+                    alert('This is valid age')
+                }
+            */
+                // 7 primitive data type 
+                let a = null; //null
+                let b = 555;    //Number
+                let c = true;   //Boolean
+                let d = BigInt('56700')+BigInt("300"); //BigInt
+                let e = "prashant"; //String
+                let f = Symbol('I am a nice symbol');   //Symbol
+                let g = undefined   //undefined 
+
+                console.log(a, b, c, d, e, f, g)
+
+            //Object in JavaSript
+
+            const item ={
+                "herry":true,
+                "shubh":false,
+                "yogesh":454,
+                "deepak":undefined
+            }
+                console.log(item["herry"])
+            
+        </script>
+    </body>
+</html>
